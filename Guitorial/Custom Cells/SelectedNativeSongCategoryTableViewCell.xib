@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="112" id="KGk-i7-Jjw" customClass="SelectedNativeSongCategoryTableViewCell" customModule="Guitorial" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="112"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="111.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qC3-Bw-6Gp">
+                        <rect key="frame" x="7" y="8" width="100" height="95"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="7np-ef-cyG"/>
+                            <constraint firstAttribute="height" constant="95" id="Ccn-j6-iK0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum ipsum loremLorem ipsum ipsum loremLorem ipsum ipsum lorem" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VpB-K2-fKZ">
+                        <rect key="frame" x="115" y="57" width="218" height="46"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="218" id="RWP-U0-Jlt"/>
+                            <constraint firstAttribute="height" constant="46" id="p0M-LH-U85"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="13"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="rLC-Ex-H9q">
+                        <rect key="frame" x="296" y="6" width="67" height="30"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAC-fO-Ffh">
+                                <rect key="frame" x="0.0" y="0.0" width="32" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="bR7-25-JHi"/>
+                                    <constraint firstAttribute="height" constant="28" id="qTw-mp-0vJ"/>
+                                </constraints>
+                                <state key="normal" image="my_fav"/>
+                                <state key="selected" image="my_fav_on"/>
+                                <connections>
+                                    <action selector="favAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="cOO-yv-9wV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KFw-rd-M3N">
+                                <rect key="frame" x="37" y="0.0" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Cdh-L9-ShF"/>
+                                    <constraint firstAttribute="width" constant="30" id="bgC-j0-GeR"/>
+                                </constraints>
+                                <state key="normal" image="playon"/>
+                                <state key="selected" image="pause"/>
+                                <connections>
+                                    <action selector="playAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="mBi-Ia-geO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Auf-9L-rjb">
+                        <rect key="frame" x="115" y="8" width="90" height="45"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kathang Isip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xm4-aJ-aEg">
+                                <rect key="frame" x="0.0" y="0.0" width="90" height="20.5"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kathang Isip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53V-Cb-33B">
+                                <rect key="frame" x="0.0" y="24.5" width="90" height="20.5"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="rLC-Ex-H9q" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="COc-bi-Mh5"/>
+                    <constraint firstItem="Auf-9L-rjb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Cjg-Gx-yPo"/>
+                    <constraint firstItem="Auf-9L-rjb" firstAttribute="leading" secondItem="qC3-Bw-6Gp" secondAttribute="trailing" constant="8" id="Cru-nn-iuh"/>
+                    <constraint firstAttribute="bottom" secondItem="VpB-K2-fKZ" secondAttribute="bottom" constant="8.5" id="Gfp-zd-9qL"/>
+                    <constraint firstAttribute="trailing" secondItem="VpB-K2-fKZ" secondAttribute="trailing" constant="42" id="JKE-tt-OlQ"/>
+                    <constraint firstItem="qC3-Bw-6Gp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="O8P-Ti-s1j"/>
+                    <constraint firstAttribute="bottom" secondItem="qC3-Bw-6Gp" secondAttribute="bottom" constant="8.5" id="gZl-Yg-Qiw"/>
+                    <constraint firstItem="VpB-K2-fKZ" firstAttribute="top" secondItem="Auf-9L-rjb" secondAttribute="bottom" constant="4" id="izt-ao-Ccc"/>
+                    <constraint firstItem="qC3-Bw-6Gp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="7" id="lIf-6t-Uv7"/>
+                    <constraint firstItem="VpB-K2-fKZ" firstAttribute="leading" secondItem="qC3-Bw-6Gp" secondAttribute="trailing" constant="8" id="pEw-Cm-ubf"/>
+                    <constraint firstAttribute="trailing" secondItem="rLC-Ex-H9q" secondAttribute="trailing" constant="12" id="v2D-dK-GFa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="isFavBtnOutlet" destination="mAC-fO-Ffh" id="gJp-Ft-xUL"/>
+                <outlet property="isPlayBtnOutlet" destination="KFw-rd-M3N" id="xhe-c8-XJK"/>
+                <outlet property="selectedNativeSongArtistLabel" destination="53V-Cb-33B" id="o87-9P-pg1"/>
+                <outlet property="selectedNativeSongCatImageView" destination="qC3-Bw-6Gp" id="mpd-eT-JhM"/>
+                <outlet property="selectedNativeSongInitLyricsLabel" destination="VpB-K2-fKZ" id="Bxe-uG-qKF"/>
+                <outlet property="selectedNativeSongTitleLabel" destination="xm4-aJ-aEg" id="nq3-4S-71M"/>
+            </connections>
+            <point key="canvasLocation" x="131.15942028985509" y="116.51785714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="my_fav" width="49" height="43"/>
+        <image name="my_fav_on" width="49" height="43"/>
+        <image name="pause" width="50" height="50"/>
+        <image name="playon" width="50" height="50"/>
+    </resources>
+</document>
