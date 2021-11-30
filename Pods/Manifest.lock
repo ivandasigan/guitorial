@@ -1,0 +1,34 @@
+PODS:
+  - JGProgressHUD (2.1)
+  - M13Checkbox (3.4.0)
+  - Realm (4.1.0):
+    - Realm/Headers (= 4.1.0)
+  - Realm/Headers (4.1.0)
+  - RealmSwift (4.1.0):
+    - Realm (= 4.1.0)
+  - SwiftGifOrigin (1.7.0)
+
+DEPENDENCIES:
+  - JGProgressHUD
+  - M13Checkbox
+  - RealmSwift
+  - SwiftGifOrigin (~> 1.7.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JGProgressHUD
+    - M13Checkbox
+    - Realm
+    - RealmSwift
+    - SwiftGifOrigin
+
+SPEC CHECKSUMS:
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
+  M13Checkbox: 6f59404540ac98ba83a3d1afac335895a40c6a5d
+  Realm: 5d1453468eca02c901c50b8a356f4a98a15b57aa
+  RealmSwift: 1d238caa5c64a590c669beef1a7e858a6cf55a1c
+  SwiftGifOrigin: fbd6cf37afcfcf97a5c3db996ddc0492e5c5c145
+
+PODFILE CHECKSUM: 53be7e35b7257209b9b54fde06f20fea8c13f841
+
+COCOAPODS: 1.6.2
