@@ -1,0 +1,906 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DB4772393055A4AC58FFE17 /* Pods_Guitorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEE8B2EFC08D2EFA313F89D /* Pods_Guitorial.framework */; };
+		EA0808EF241D22A0000FE6E0 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0808EE241D22A0000FE6E0 /* Playlist.swift */; };
+		EA0808F1241D25AD000FE6E0 /* PlaylistSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0808F0241D25AD000FE6E0 /* PlaylistSongs.swift */; };
+		EA115E13241A93E5006ACDD7 /* Bibingka nen maria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA115E11241A93E5006ACDD7 /* Bibingka nen maria.mp3 */; };
+		EA115E14241A93E5006ACDD7 /* Ponsiyano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA115E12241A93E5006ACDD7 /* Ponsiyano.mp3 */; };
+		EA16F7762412098E00748A70 /* LyricsnChordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16F7752412098E00748A70 /* LyricsnChordsViewController.swift */; };
+		EA19097D24169B07000216B6 /* NativeSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19097C24169B07000216B6 /* NativeSongs.swift */; };
+		EA1923752407D296005F3BB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1923742407D296005F3BB3 /* AppDelegate.swift */; };
+		EA19237A2407D296005F3BB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1923782407D296005F3BB3 /* Main.storyboard */; };
+		EA19237C2407D299005F3BB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA19237B2407D299005F3BB3 /* Assets.xcassets */; };
+		EA19237F2407D299005F3BB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA19237D2407D299005F3BB3 /* LaunchScreen.storyboard */; };
+		EA1923892407D2F5005F3BB3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1923882407D2F4005F3BB3 /* SWRevealViewController.m */; };
+		EA1925B324125B1500597484 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1925B224125B1500597484 /* FavoritesViewController.swift */; };
+		EA1925B624125B6500597484 /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1925B424125B6500597484 /* FavoritesTableViewCell.swift */; };
+		EA1925B724125B6500597484 /* FavoritesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA1925B524125B6500597484 /* FavoritesTableViewCell.xib */; };
+		EA197A30241A3CF1003E80BA /* Oalay manoc con Tara.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA197A2C241A3CF0003E80BA /* Oalay manoc con Tara.mp3 */; };
+		EA197A31241A3CF1003E80BA /* Pangasinan Hymn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA197A2D241A3CF0003E80BA /* Pangasinan Hymn.mp3 */; };
+		EA197A32241A3CF1003E80BA /* Pangasinan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA197A2E241A3CF0003E80BA /* Pangasinan.mp3 */; };
+		EA197A33241A3CF1003E80BA /* Inar-aro taka.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA197A2F241A3CF1003E80BA /* Inar-aro taka.mp3 */; };
+		EA1BC0122414DE2700082C5B /* AboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1BC0112414DE2700082C5B /* AboutusViewController.swift */; };
+		EA1C4ACE240EA6E2001B073E /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1C4ACD240EA6E2001B073E /* View.swift */; };
+		EA1C8DEE241126C90000A3AD /* NativeSongsCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1C8DED241126C90000A3AD /* NativeSongsCategoryViewController.swift */; };
+		EA1C8DF0241126FB0000A3AD /* SelectedNativeSongCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1C8DEF241126FB0000A3AD /* SelectedNativeSongCategoryViewController.swift */; };
+		EA1D89A2241FB32200B5AF2B /* PlaylistmusicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D89A1241FB32200B5AF2B /* PlaylistmusicsViewController.swift */; };
+		EA1D89A5241FB34900B5AF2B /* PlaylistmusicsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D89A3241FB34900B5AF2B /* PlaylistmusicsTableViewCell.swift */; };
+		EA1D89A6241FB34900B5AF2B /* PlaylistmusicsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA1D89A4241FB34900B5AF2B /* PlaylistmusicsTableViewCell.xib */; };
+		EA29B5092411421800C64C8C /* SelectedNativeSongCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA29B5072411421800C64C8C /* SelectedNativeSongCategoryTableViewCell.swift */; };
+		EA29B50A2411421800C64C8C /* SelectedNativeSongCategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA29B5082411421800C64C8C /* SelectedNativeSongCategoryTableViewCell.xib */; };
+		EA2EBBF2242195B100A8D420 /* Blue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EBBF1242195B100A8D420 /* Blue.swift */; };
+		EA2EBBF42421DB7900A8D420 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EBBF32421DB7900A8D420 /* HelpViewController.swift */; };
+		EA2EBBF62421F2E400A8D420 /* AddSongsAybanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EBBF52421F2E400A8D420 /* AddSongsAybanViewController.swift */; };
+		EA2EBBF92421F38A00A8D420 /* AddSongsAybanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EBBF72421F38A00A8D420 /* AddSongsAybanTableViewCell.swift */; };
+		EA2EBBFA2421F38A00A8D420 /* AddSongsAybanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2EBBF82421F38A00A8D420 /* AddSongsAybanTableViewCell.xib */; };
+		EA2EF7772413C4CC00A60400 /* HowtoplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2EF7762413C4CC00A60400 /* HowtoplayViewController.swift */; };
+		EA46DEE3241B8341001A5E77 /* ChordschartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA46DEE1241B8341001A5E77 /* ChordschartCollectionViewCell.swift */; };
+		EA46DEE4241B8341001A5E77 /* ChordschartCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA46DEE2241B8341001A5E77 /* ChordschartCollectionViewCell.xib */; };
+		EA5A2A802423B14D0014AF85 /* AddPlSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A7F2423B14D0014AF85 /* AddPlSong.swift */; };
+		EA5AED74240B9095005027C4 /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5AED73240B9095005027C4 /* SlideMenuViewController.swift */; };
+		EA5AED79240B94E5005027C4 /* SlideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5AED77240B94E5005027C4 /* SlideMenuTableViewCell.swift */; };
+		EA5AED7A240B94E5005027C4 /* SlideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA5AED78240B94E5005027C4 /* SlideMenuTableViewCell.xib */; };
+		EA5BBDAB2417D765005F5FDB /* AllSongsBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5BBDAA2417D765005F5FDB /* AllSongsBank.swift */; };
+		EA6BD80F241F2776000385FF /* ChordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6BD80E241F2776000385FF /* ChordsViewController.swift */; };
+		EA6BD812241F2883000385FF /* ChordsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6BD810241F2883000385FF /* ChordsCollectionViewCell.swift */; };
+		EA6BD813241F2883000385FF /* ChordsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6BD811241F2883000385FF /* ChordsCollectionViewCell.xib */; };
+		EA6BD815241F70CC000385FF /* AddMusicEmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6BD814241F70CC000385FF /* AddMusicEmptyViewController.swift */; };
+		EAC5A6982417897A005C1334 /* ChordsChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC5A6972417897A005C1334 /* ChordsChartViewController.swift */; };
+		EAC9C1C824188C5A00C4A156 /* Cm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EAC9C1BD24188C5900C4A156 /* Cm.m4a */; };
+		EAC9C1C924188C5A00C4A156 /* D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EAC9C1BE24188C5900C4A156 /* D.m4a */; };
+		EAC9C1CA24188C5A00C4A156 /* A.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EAC9C1BF24188C5900C4A156 /* A.m4a */; };
+		EAC9C1CB24188C5A00C4A156 /* E.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EAC9C1C024188C5900C4A156 /* E.m4a */; };
+		EAC9C1CC24188C5A00C4A156 /* G.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EAC9C1C124188C5900C4A156 /* G.m4a */; };
+		EAC9C1CD24188C5A00C4A156 /* Em.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EAC9C1C224188C5900C4A156 /* Em.m4a */; };
+		EAC9C1CE24188C5A00C4A156 /* F.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EAC9C1C324188C5A00C4A156 /* F.m4a */; };
+		EAC9C1CF24188C5A00C4A156 /* Dm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EAC9C1C424188C5A00C4A156 /* Dm.m4a */; };
+		EAC9C1D024188C5A00C4A156 /* B.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EAC9C1C524188C5A00C4A156 /* B.m4a */; };
+		EAC9C1D124188C5A00C4A156 /* C.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EAC9C1C624188C5A00C4A156 /* C.m4a */; };
+		EAC9C1D224188C5A00C4A156 /* Bm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EAC9C1C724188C5A00C4A156 /* Bm.m4a */; };
+		EAC9C1D424188CE700C4A156 /* QuizGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC9C1D324188CE700C4A156 /* QuizGame.swift */; };
+		EAC9C1D624188CF200C4A156 /* QuizGameBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC9C1D524188CF200C4A156 /* QuizGameBank.swift */; };
+		EACBB9A02411E74700983F9F /* AddSongsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACBB99E2411E74700983F9F /* AddSongsTableViewCell.swift */; };
+		EACBB9A12411E74800983F9F /* AddSongsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EACBB99F2411E74700983F9F /* AddSongsTableViewCell.xib */; };
+		EACBB9A32411E85A00983F9F /* AddPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACBB9A22411E85A00983F9F /* AddPlaylistViewController.swift */; };
+		EACBB9A52411E8B600983F9F /* ListPlayListViewController copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACBB9A42411E8B600983F9F /* ListPlayListViewController copy.swift */; };
+		EACBB9A72411E8DE00983F9F /* AddSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACBB9A62411E8DE00983F9F /* AddSongsViewController.swift */; };
+		EACBF696241098D1001DEE13 /* PlaylistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACBF694241098D1001DEE13 /* PlaylistTableViewCell.swift */; };
+		EACBF697241098D1001DEE13 /* PlaylistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EACBF695241098D1001DEE13 /* PlaylistTableViewCell.xib */; };
+		EAD7EA0B2413826200070B37 /* ChartQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD7EA0A2413826200070B37 /* ChartQuizViewController.swift */; };
+		EAD7EA0D2413829F00070B37 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD7EA0C2413829F00070B37 /* QuestionsViewController.swift */; };
+		EAD7EA0F241382C400070B37 /* ScoreBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD7EA0E241382C400070B37 /* ScoreBoardViewController.swift */; };
+		EADC6A5D2418F85D00AA90DE /* Harana.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A542418F85C00AA90DE /* Harana.mp3 */; };
+		EADC6A5E2418F85D00AA90DE /* Buloy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A552418F85C00AA90DE /* Buloy.mp3 */; };
+		EADC6A5F2418F85D00AA90DE /* Aaminin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A562418F85C00AA90DE /* Aaminin.mp3 */; };
+		EADC6A602418F85D00AA90DE /* Kasalanan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A572418F85C00AA90DE /* Kasalanan.mp3 */; };
+		EADC6A612418F85D00AA90DE /* Alapaap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A582418F85C00AA90DE /* Alapaap.mp3 */; };
+		EADC6A622418F85D00AA90DE /* Halaga.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A592418F85D00AA90DE /* Halaga.mp3 */; };
+		EADC6A632418F85D00AA90DE /* 214.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A5A2418F85D00AA90DE /* 214.mp3 */; };
+		EADC6A642418F85D00AA90DE /* Walang hiyang pare ko.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A5B2418F85D00AA90DE /* Walang hiyang pare ko.mp3 */; };
+		EADC6A652418F85D00AA90DE /* Kung wala ka.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A5C2418F85D00AA90DE /* Kung wala ka.mp3 */; };
+		EADC6A672418F87400AA90DE /* Para sayo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A662418F87400AA90DE /* Para sayo.mp3 */; };
+		EADC6A71241906B400AA90DE /* Agbabaketak.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A69241906B300AA90DE /* Agbabaketak.mp3 */; };
+		EADC6A72241906B400AA90DE /* Isem.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A6A241906B300AA90DE /* Isem.mp3 */; };
+		EADC6A73241906B400AA90DE /* Simple a kanta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A6B241906B300AA90DE /* Simple a kanta.mp3 */; };
+		EADC6A74241906B400AA90DE /* Agsubli Kadtoy Dennak.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A6C241906B300AA90DE /* Agsubli Kadtoy Dennak.mp3 */; };
+		EADC6A75241906B400AA90DE /* Agpakada akon ayat ko.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A6D241906B300AA90DE /* Agpakada akon ayat ko.mp3 */; };
+		EADC6A76241906B400AA90DE /* Biag Ti Tao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A6E241906B300AA90DE /* Biag Ti Tao.mp3 */; };
+		EADC6A77241906B400AA90DE /* Palubosan nak kadin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A6F241906B300AA90DE /* Palubosan nak kadin.mp3 */; };
+		EADC6A78241906B400AA90DE /* Parparbuk Laeng.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A70241906B400AA90DE /* Parparbuk Laeng.mp3 */; };
+		EADC6A7C24190A4400AA90DE /* Inggon dumaralos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A7A24190A4400AA90DE /* Inggon dumaralos.mp3 */; };
+		EADC6A7D24190A4400AA90DE /* Malabir Ka.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A7B24190A4400AA90DE /* Malabir Ka.mp3 */; };
+		EADC6A8024190A6900AA90DE /* Basol Ko Kadi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A7E24190A6900AA90DE /* Basol Ko Kadi.mp3 */; };
+		EADC6A8124190A6900AA90DE /* Kukuam Amin Dayaw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A7F24190A6900AA90DE /* Kukuam Amin Dayaw.mp3 */; };
+		EADC6A8324191EEB00AA90DE /* Matalag ya agew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A8224191EEB00AA90DE /* Matalag ya agew.mp3 */; };
+		EADC6A852419244000AA90DE /* guessAni.gif in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A842419244000AA90DE /* guessAni.gif */; };
+		EADC6A8724193A9C00AA90DE /* Malinak lay labi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EADC6A8624193A9C00AA90DE /* Malinak lay labi.mp3 */; };
+		EAE93E1D2419B5CF00DD55E0 /* winGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = EAE93E1C2419B5CE00DD55E0 /* winGif.gif */; };
+		EAFD8AF3241852E400BD897D /* FavoriteNativeSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFD8AF2241852E400BD897D /* FavoriteNativeSong.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		184003BCD352D4EED4C70CE5 /* Pods-Guitorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guitorial.release.xcconfig"; path = "Target Support Files/Pods-Guitorial/Pods-Guitorial.release.xcconfig"; sourceTree = "<group>"; };
+		4F80183EFD65E958A86F0B94 /* Pods-Guitorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guitorial.debug.xcconfig"; path = "Target Support Files/Pods-Guitorial/Pods-Guitorial.debug.xcconfig"; sourceTree = "<group>"; };
+		AAEE8B2EFC08D2EFA313F89D /* Pods_Guitorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Guitorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0808EE241D22A0000FE6E0 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		EA0808F0241D25AD000FE6E0 /* PlaylistSongs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistSongs.swift; sourceTree = "<group>"; };
+		EA115E11241A93E5006ACDD7 /* Bibingka nen maria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bibingka nen maria.mp3"; sourceTree = "<group>"; };
+		EA115E12241A93E5006ACDD7 /* Ponsiyano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ponsiyano.mp3; sourceTree = "<group>"; };
+		EA16F7752412098E00748A70 /* LyricsnChordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsnChordsViewController.swift; sourceTree = "<group>"; };
+		EA19097C24169B07000216B6 /* NativeSongs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeSongs.swift; sourceTree = "<group>"; };
+		EA1923712407D296005F3BB3 /* Guitorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guitorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1923742407D296005F3BB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA1923792407D296005F3BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA19237B2407D299005F3BB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA19237E2407D299005F3BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA1923802407D299005F3BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1923862407D2F4005F3BB3 /* Guitorial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Guitorial-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA1923872407D2F4005F3BB3 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		EA1923882407D2F4005F3BB3 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		EA1925B224125B1500597484 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		EA1925B424125B6500597484 /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
+		EA1925B524125B6500597484 /* FavoritesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesTableViewCell.xib; sourceTree = "<group>"; };
+		EA197A2C241A3CF0003E80BA /* Oalay manoc con Tara.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Oalay manoc con Tara.mp3"; sourceTree = "<group>"; };
+		EA197A2D241A3CF0003E80BA /* Pangasinan Hymn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pangasinan Hymn.mp3"; sourceTree = "<group>"; };
+		EA197A2E241A3CF0003E80BA /* Pangasinan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pangasinan.mp3; sourceTree = "<group>"; };
+		EA197A2F241A3CF1003E80BA /* Inar-aro taka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Inar-aro taka.mp3"; sourceTree = "<group>"; };
+		EA1BC0112414DE2700082C5B /* AboutusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutusViewController.swift; sourceTree = "<group>"; };
+		EA1C4ACD240EA6E2001B073E /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		EA1C8DED241126C90000A3AD /* NativeSongsCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeSongsCategoryViewController.swift; sourceTree = "<group>"; };
+		EA1C8DEF241126FB0000A3AD /* SelectedNativeSongCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedNativeSongCategoryViewController.swift; sourceTree = "<group>"; };
+		EA1D89A1241FB32200B5AF2B /* PlaylistmusicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistmusicsViewController.swift; sourceTree = "<group>"; };
+		EA1D89A3241FB34900B5AF2B /* PlaylistmusicsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistmusicsTableViewCell.swift; sourceTree = "<group>"; };
+		EA1D89A4241FB34900B5AF2B /* PlaylistmusicsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistmusicsTableViewCell.xib; sourceTree = "<group>"; };
+		EA29B5072411421800C64C8C /* SelectedNativeSongCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedNativeSongCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		EA29B5082411421800C64C8C /* SelectedNativeSongCategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectedNativeSongCategoryTableViewCell.xib; sourceTree = "<group>"; };
+		EA2EBBF1242195B100A8D420 /* Blue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blue.swift; sourceTree = "<group>"; };
+		EA2EBBF32421DB7900A8D420 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		EA2EBBF52421F2E400A8D420 /* AddSongsAybanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSongsAybanViewController.swift; sourceTree = "<group>"; };
+		EA2EBBF72421F38A00A8D420 /* AddSongsAybanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSongsAybanTableViewCell.swift; sourceTree = "<group>"; };
+		EA2EBBF82421F38A00A8D420 /* AddSongsAybanTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddSongsAybanTableViewCell.xib; sourceTree = "<group>"; };
+		EA2EF7762413C4CC00A60400 /* HowtoplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowtoplayViewController.swift; sourceTree = "<group>"; };
+		EA46DEE1241B8341001A5E77 /* ChordschartCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordschartCollectionViewCell.swift; sourceTree = "<group>"; };
+		EA46DEE2241B8341001A5E77 /* ChordschartCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChordschartCollectionViewCell.xib; sourceTree = "<group>"; };
+		EA5A2A7F2423B14D0014AF85 /* AddPlSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlSong.swift; sourceTree = "<group>"; };
+		EA5AED73240B9095005027C4 /* SlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
+		EA5AED77240B94E5005027C4 /* SlideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		EA5AED78240B94E5005027C4 /* SlideMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlideMenuTableViewCell.xib; sourceTree = "<group>"; };
+		EA5BBDAA2417D765005F5FDB /* AllSongsBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSongsBank.swift; sourceTree = "<group>"; };
+		EA6BD80E241F2776000385FF /* ChordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordsViewController.swift; sourceTree = "<group>"; };
+		EA6BD810241F2883000385FF /* ChordsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordsCollectionViewCell.swift; sourceTree = "<group>"; };
+		EA6BD811241F2883000385FF /* ChordsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChordsCollectionViewCell.xib; sourceTree = "<group>"; };
+		EA6BD814241F70CC000385FF /* AddMusicEmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMusicEmptyViewController.swift; sourceTree = "<group>"; };
+		EAC5A6972417897A005C1334 /* ChordsChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordsChartViewController.swift; sourceTree = "<group>"; };
+		EAC9C1BD24188C5900C4A156 /* Cm.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cm.m4a; sourceTree = "<group>"; };
+		EAC9C1BE24188C5900C4A156 /* D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = D.m4a; sourceTree = "<group>"; };
+		EAC9C1BF24188C5900C4A156 /* A.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = A.m4a; sourceTree = "<group>"; };
+		EAC9C1C024188C5900C4A156 /* E.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = E.m4a; sourceTree = "<group>"; };
+		EAC9C1C124188C5900C4A156 /* G.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = G.m4a; sourceTree = "<group>"; };
+		EAC9C1C224188C5900C4A156 /* Em.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Em.m4a; sourceTree = "<group>"; };
+		EAC9C1C324188C5A00C4A156 /* F.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = F.m4a; sourceTree = "<group>"; };
+		EAC9C1C424188C5A00C4A156 /* Dm.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dm.m4a; sourceTree = "<group>"; };
+		EAC9C1C524188C5A00C4A156 /* B.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = B.m4a; sourceTree = "<group>"; };
+		EAC9C1C624188C5A00C4A156 /* C.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = C.m4a; sourceTree = "<group>"; };
+		EAC9C1C724188C5A00C4A156 /* Bm.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bm.m4a; sourceTree = "<group>"; };
+		EAC9C1D324188CE700C4A156 /* QuizGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizGame.swift; sourceTree = "<group>"; };
+		EAC9C1D524188CF200C4A156 /* QuizGameBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizGameBank.swift; sourceTree = "<group>"; };
+		EACBB99E2411E74700983F9F /* AddSongsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSongsTableViewCell.swift; sourceTree = "<group>"; };
+		EACBB99F2411E74700983F9F /* AddSongsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddSongsTableViewCell.xib; sourceTree = "<group>"; };
+		EACBB9A22411E85A00983F9F /* AddPlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaylistViewController.swift; sourceTree = "<group>"; };
+		EACBB9A42411E8B600983F9F /* ListPlayListViewController copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListPlayListViewController copy.swift"; sourceTree = "<group>"; };
+		EACBB9A62411E8DE00983F9F /* AddSongsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSongsViewController.swift; sourceTree = "<group>"; };
+		EACBF694241098D1001DEE13 /* PlaylistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewCell.swift; sourceTree = "<group>"; };
+		EACBF695241098D1001DEE13 /* PlaylistTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistTableViewCell.xib; sourceTree = "<group>"; };
+		EAD7EA0A2413826200070B37 /* ChartQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartQuizViewController.swift; sourceTree = "<group>"; };
+		EAD7EA0C2413829F00070B37 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		EAD7EA0E241382C400070B37 /* ScoreBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBoardViewController.swift; sourceTree = "<group>"; };
+		EADC6A542418F85C00AA90DE /* Harana.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Harana.mp3; sourceTree = "<group>"; };
+		EADC6A552418F85C00AA90DE /* Buloy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Buloy.mp3; sourceTree = "<group>"; };
+		EADC6A562418F85C00AA90DE /* Aaminin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Aaminin.mp3; sourceTree = "<group>"; };
+		EADC6A572418F85C00AA90DE /* Kasalanan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kasalanan.mp3; sourceTree = "<group>"; };
+		EADC6A582418F85C00AA90DE /* Alapaap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alapaap.mp3; sourceTree = "<group>"; };
+		EADC6A592418F85D00AA90DE /* Halaga.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Halaga.mp3; sourceTree = "<group>"; };
+		EADC6A5A2418F85D00AA90DE /* 214.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 214.mp3; sourceTree = "<group>"; };
+		EADC6A5B2418F85D00AA90DE /* Walang hiyang pare ko.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Walang hiyang pare ko.mp3"; sourceTree = "<group>"; };
+		EADC6A5C2418F85D00AA90DE /* Kung wala ka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kung wala ka.mp3"; sourceTree = "<group>"; };
+		EADC6A662418F87400AA90DE /* Para sayo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Para sayo.mp3"; sourceTree = "<group>"; };
+		EADC6A69241906B300AA90DE /* Agbabaketak.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Agbabaketak.mp3; sourceTree = "<group>"; };
+		EADC6A6A241906B300AA90DE /* Isem.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Isem.mp3; sourceTree = "<group>"; };
+		EADC6A6B241906B300AA90DE /* Simple a kanta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Simple a kanta.mp3"; sourceTree = "<group>"; };
+		EADC6A6C241906B300AA90DE /* Agsubli Kadtoy Dennak.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Agsubli Kadtoy Dennak.mp3"; sourceTree = "<group>"; };
+		EADC6A6D241906B300AA90DE /* Agpakada akon ayat ko.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Agpakada akon ayat ko.mp3"; sourceTree = "<group>"; };
+		EADC6A6E241906B300AA90DE /* Biag Ti Tao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Biag Ti Tao.mp3"; sourceTree = "<group>"; };
+		EADC6A6F241906B300AA90DE /* Palubosan nak kadin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Palubosan nak kadin.mp3"; sourceTree = "<group>"; };
+		EADC6A70241906B400AA90DE /* Parparbuk Laeng.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Parparbuk Laeng.mp3"; sourceTree = "<group>"; };
+		EADC6A7A24190A4400AA90DE /* Inggon dumaralos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Inggon dumaralos.mp3"; sourceTree = "<group>"; };
+		EADC6A7B24190A4400AA90DE /* Malabir Ka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Malabir Ka.mp3"; sourceTree = "<group>"; };
+		EADC6A7E24190A6900AA90DE /* Basol Ko Kadi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Basol Ko Kadi.mp3"; sourceTree = "<group>"; };
+		EADC6A7F24190A6900AA90DE /* Kukuam Amin Dayaw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kukuam Amin Dayaw.mp3"; sourceTree = "<group>"; };
+		EADC6A8224191EEB00AA90DE /* Matalag ya agew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Matalag ya agew.mp3"; sourceTree = "<group>"; };
+		EADC6A842419244000AA90DE /* guessAni.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guessAni.gif; sourceTree = "<group>"; };
+		EADC6A8624193A9C00AA90DE /* Malinak lay labi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Malinak lay labi.mp3"; sourceTree = "<group>"; };
+		EAE93E1C2419B5CE00DD55E0 /* winGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = winGif.gif; sourceTree = "<group>"; };
+		EAFD8AF2241852E400BD897D /* FavoriteNativeSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteNativeSong.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA19236E2407D296005F3BB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB4772393055A4AC58FFE17 /* Pods_Guitorial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280CC8A8D58645545D9DEF28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAEE8B2EFC08D2EFA313F89D /* Pods_Guitorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDCE23484D8F3CDC37A7E9EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F80183EFD65E958A86F0B94 /* Pods-Guitorial.debug.xcconfig */,
+				184003BCD352D4EED4C70CE5 /* Pods-Guitorial.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA0808ED241D1ECA000FE6E0 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				EAFD8AF2241852E400BD897D /* FavoriteNativeSong.swift */,
+				EA0808EE241D22A0000FE6E0 /* Playlist.swift */,
+				EA0808F0241D25AD000FE6E0 /* PlaylistSongs.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		EA1923682407D296005F3BB3 = {
+			isa = PBXGroup;
+			children = (
+				EA1923732407D296005F3BB3 /* Guitorial */,
+				EA1923722407D296005F3BB3 /* Products */,
+				CDCE23484D8F3CDC37A7E9EC /* Pods */,
+				280CC8A8D58645545D9DEF28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1923722407D296005F3BB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1923712407D296005F3BB3 /* Guitorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA1923732407D296005F3BB3 /* Guitorial */ = {
+			isa = PBXGroup;
+			children = (
+				EADC6A522418F77000AA90DE /* MySongs */,
+				EA1923742407D296005F3BB3 /* AppDelegate.swift */,
+				EAC9C1BC24188C1900C4A156 /* ChordSounds */,
+				EA29B5022411412500C64C8C /* Custom Cells */,
+				EA29B501241140F700C64C8C /* Controllers */,
+				EA29B5032411414200C64C8C /* SWRevealViewController */,
+				EA29B5052411419800C64C8C /* Storyboard */,
+				EA29B506241141A300C64C8C /* Extension */,
+				EA29B5042411418200C64C8C /* Designable */,
+				EA1923802407D299005F3BB3 /* Info.plist */,
+				EA1923862407D2F4005F3BB3 /* Guitorial-Bridging-Header.h */,
+				EA19237B2407D299005F3BB3 /* Assets.xcassets */,
+				EA0808ED241D1ECA000FE6E0 /* Realm */,
+				EA2F319E242C473F00B550C5 /* Song Model */,
+				EA2F319D242C46F400B550C5 /* Song Manager */,
+				EAC9C1D524188CF200C4A156 /* QuizGameBank.swift */,
+				EADC6A842419244000AA90DE /* guessAni.gif */,
+				EAE93E1C2419B5CE00DD55E0 /* winGif.gif */,
+			);
+			path = Guitorial;
+			sourceTree = "<group>";
+		};
+		EA29B501241140F700C64C8C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EACBB9A42411E8B600983F9F /* ListPlayListViewController copy.swift */,
+				EACBB9A22411E85A00983F9F /* AddPlaylistViewController.swift */,
+				EA1C8DEF241126FB0000A3AD /* SelectedNativeSongCategoryViewController.swift */,
+				EA1C8DED241126C90000A3AD /* NativeSongsCategoryViewController.swift */,
+				EA5AED73240B9095005027C4 /* SlideMenuViewController.swift */,
+				EACBB9A62411E8DE00983F9F /* AddSongsViewController.swift */,
+				EA16F7752412098E00748A70 /* LyricsnChordsViewController.swift */,
+				EA1925B224125B1500597484 /* FavoritesViewController.swift */,
+				EAD7EA0A2413826200070B37 /* ChartQuizViewController.swift */,
+				EAD7EA0C2413829F00070B37 /* QuestionsViewController.swift */,
+				EAD7EA0E241382C400070B37 /* ScoreBoardViewController.swift */,
+				EA2EF7762413C4CC00A60400 /* HowtoplayViewController.swift */,
+				EA1BC0112414DE2700082C5B /* AboutusViewController.swift */,
+				EAC5A6972417897A005C1334 /* ChordsChartViewController.swift */,
+				EA6BD80E241F2776000385FF /* ChordsViewController.swift */,
+				EA6BD814241F70CC000385FF /* AddMusicEmptyViewController.swift */,
+				EA1D89A1241FB32200B5AF2B /* PlaylistmusicsViewController.swift */,
+				EA2EBBF32421DB7900A8D420 /* HelpViewController.swift */,
+				EA2EBBF52421F2E400A8D420 /* AddSongsAybanViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EA29B5022411412500C64C8C /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EA5AED77240B94E5005027C4 /* SlideMenuTableViewCell.swift */,
+				EA5AED78240B94E5005027C4 /* SlideMenuTableViewCell.xib */,
+				EACBF694241098D1001DEE13 /* PlaylistTableViewCell.swift */,
+				EACBF695241098D1001DEE13 /* PlaylistTableViewCell.xib */,
+				EA29B5072411421800C64C8C /* SelectedNativeSongCategoryTableViewCell.swift */,
+				EA29B5082411421800C64C8C /* SelectedNativeSongCategoryTableViewCell.xib */,
+				EACBB99E2411E74700983F9F /* AddSongsTableViewCell.swift */,
+				EACBB99F2411E74700983F9F /* AddSongsTableViewCell.xib */,
+				EA1925B424125B6500597484 /* FavoritesTableViewCell.swift */,
+				EA1925B524125B6500597484 /* FavoritesTableViewCell.xib */,
+				EA46DEE1241B8341001A5E77 /* ChordschartCollectionViewCell.swift */,
+				EA46DEE2241B8341001A5E77 /* ChordschartCollectionViewCell.xib */,
+				EA6BD810241F2883000385FF /* ChordsCollectionViewCell.swift */,
+				EA6BD811241F2883000385FF /* ChordsCollectionViewCell.xib */,
+				EA1D89A3241FB34900B5AF2B /* PlaylistmusicsTableViewCell.swift */,
+				EA1D89A4241FB34900B5AF2B /* PlaylistmusicsTableViewCell.xib */,
+				EA2EBBF72421F38A00A8D420 /* AddSongsAybanTableViewCell.swift */,
+				EA2EBBF82421F38A00A8D420 /* AddSongsAybanTableViewCell.xib */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		EA29B5032411414200C64C8C /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EA1923872407D2F4005F3BB3 /* SWRevealViewController.h */,
+				EA1923882407D2F4005F3BB3 /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		EA29B5042411418200C64C8C /* Designable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Designable;
+			sourceTree = "<group>";
+		};
+		EA29B5052411419800C64C8C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EA1923782407D296005F3BB3 /* Main.storyboard */,
+				EA19237D2407D299005F3BB3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EA29B506241141A300C64C8C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EA2EBBF1242195B100A8D420 /* Blue.swift */,
+				EA1C4ACD240EA6E2001B073E /* View.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EA2F319D242C46F400B550C5 /* Song Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A2A7F2423B14D0014AF85 /* AddPlSong.swift */,
+				EA19097C24169B07000216B6 /* NativeSongs.swift */,
+				EAC9C1D324188CE700C4A156 /* QuizGame.swift */,
+			);
+			path = "Song Manager";
+			sourceTree = "<group>";
+		};
+		EA2F319E242C473F00B550C5 /* Song Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA5BBDAA2417D765005F5FDB /* AllSongsBank.swift */,
+			);
+			path = "Song Model";
+			sourceTree = "<group>";
+		};
+		EAC9C1BC24188C1900C4A156 /* ChordSounds */ = {
+			isa = PBXGroup;
+			children = (
+				EAC9C1BF24188C5900C4A156 /* A.m4a */,
+				EAC9C1C524188C5A00C4A156 /* B.m4a */,
+				EAC9C1C724188C5A00C4A156 /* Bm.m4a */,
+				EAC9C1C624188C5A00C4A156 /* C.m4a */,
+				EAC9C1BD24188C5900C4A156 /* Cm.m4a */,
+				EAC9C1BE24188C5900C4A156 /* D.m4a */,
+				EAC9C1C424188C5A00C4A156 /* Dm.m4a */,
+				EAC9C1C024188C5900C4A156 /* E.m4a */,
+				EAC9C1C224188C5900C4A156 /* Em.m4a */,
+				EAC9C1C324188C5A00C4A156 /* F.m4a */,
+				EAC9C1C124188C5900C4A156 /* G.m4a */,
+			);
+			path = ChordSounds;
+			sourceTree = "<group>";
+		};
+		EADC6A522418F77000AA90DE /* MySongs */ = {
+			isa = PBXGroup;
+			children = (
+				EADC6A79241909D700AA90DE /* Pangasinan */,
+				EADC6A682418F88000AA90DE /* Ilokano */,
+				EADC6A532418F77D00AA90DE /* Tagalog */,
+			);
+			path = MySongs;
+			sourceTree = "<group>";
+		};
+		EADC6A532418F77D00AA90DE /* Tagalog */ = {
+			isa = PBXGroup;
+			children = (
+				EADC6A5A2418F85D00AA90DE /* 214.mp3 */,
+				EADC6A562418F85C00AA90DE /* Aaminin.mp3 */,
+				EADC6A582418F85C00AA90DE /* Alapaap.mp3 */,
+				EADC6A552418F85C00AA90DE /* Buloy.mp3 */,
+				EADC6A592418F85D00AA90DE /* Halaga.mp3 */,
+				EADC6A542418F85C00AA90DE /* Harana.mp3 */,
+				EADC6A572418F85C00AA90DE /* Kasalanan.mp3 */,
+				EADC6A5C2418F85D00AA90DE /* Kung wala ka.mp3 */,
+				EADC6A662418F87400AA90DE /* Para sayo.mp3 */,
+				EADC6A5B2418F85D00AA90DE /* Walang hiyang pare ko.mp3 */,
+			);
+			path = Tagalog;
+			sourceTree = "<group>";
+		};
+		EADC6A682418F88000AA90DE /* Ilokano */ = {
+			isa = PBXGroup;
+			children = (
+				EADC6A69241906B300AA90DE /* Agbabaketak.mp3 */,
+				EADC6A6D241906B300AA90DE /* Agpakada akon ayat ko.mp3 */,
+				EADC6A6C241906B300AA90DE /* Agsubli Kadtoy Dennak.mp3 */,
+				EADC6A7E24190A6900AA90DE /* Basol Ko Kadi.mp3 */,
+				EADC6A6E241906B300AA90DE /* Biag Ti Tao.mp3 */,
+				EADC6A6A241906B300AA90DE /* Isem.mp3 */,
+				EADC6A7F24190A6900AA90DE /* Kukuam Amin Dayaw.mp3 */,
+				EADC6A6F241906B300AA90DE /* Palubosan nak kadin.mp3 */,
+				EADC6A70241906B400AA90DE /* Parparbuk Laeng.mp3 */,
+				EADC6A6B241906B300AA90DE /* Simple a kanta.mp3 */,
+			);
+			path = Ilokano;
+			sourceTree = "<group>";
+		};
+		EADC6A79241909D700AA90DE /* Pangasinan */ = {
+			isa = PBXGroup;
+			children = (
+				EA115E11241A93E5006ACDD7 /* Bibingka nen maria.mp3 */,
+				EA197A2F241A3CF1003E80BA /* Inar-aro taka.mp3 */,
+				EADC6A7A24190A4400AA90DE /* Inggon dumaralos.mp3 */,
+				EADC6A7B24190A4400AA90DE /* Malabir Ka.mp3 */,
+				EADC6A8624193A9C00AA90DE /* Malinak lay labi.mp3 */,
+				EADC6A8224191EEB00AA90DE /* Matalag ya agew.mp3 */,
+				EA197A2C241A3CF0003E80BA /* Oalay manoc con Tara.mp3 */,
+				EA197A2D241A3CF0003E80BA /* Pangasinan Hymn.mp3 */,
+				EA197A2E241A3CF0003E80BA /* Pangasinan.mp3 */,
+				EA115E12241A93E5006ACDD7 /* Ponsiyano.mp3 */,
+			);
+			path = Pangasinan;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA1923702407D296005F3BB3 /* Guitorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1923832407D299005F3BB3 /* Build configuration list for PBXNativeTarget "Guitorial" */;
+			buildPhases = (
+				81934C1B983EEA0AD6E8B2C3 /* [CP] Check Pods Manifest.lock */,
+				EA19236D2407D296005F3BB3 /* Sources */,
+				EA19236E2407D296005F3BB3 /* Frameworks */,
+				EA19236F2407D296005F3BB3 /* Resources */,
+				AD6C81FB31820D860CE56871 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guitorial;
+			productName = Guitorial;
+			productReference = EA1923712407D296005F3BB3 /* Guitorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA1923692407D296005F3BB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ivan Dasigan";
+				TargetAttributes = {
+					EA1923702407D296005F3BB3 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = EA19236C2407D296005F3BB3 /* Build configuration list for PBXProject "Guitorial" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA1923682407D296005F3BB3;
+			productRefGroup = EA1923722407D296005F3BB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA1923702407D296005F3BB3 /* Guitorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA19236F2407D296005F3BB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC9C1CE24188C5A00C4A156 /* F.m4a in Resources */,
+				EADC6A78241906B400AA90DE /* Parparbuk Laeng.mp3 in Resources */,
+				EADC6A72241906B400AA90DE /* Isem.mp3 in Resources */,
+				EA1D89A6241FB34900B5AF2B /* PlaylistmusicsTableViewCell.xib in Resources */,
+				EADC6A8024190A6900AA90DE /* Basol Ko Kadi.mp3 in Resources */,
+				EA6BD813241F2883000385FF /* ChordsCollectionViewCell.xib in Resources */,
+				EADC6A612418F85D00AA90DE /* Alapaap.mp3 in Resources */,
+				EA115E13241A93E5006ACDD7 /* Bibingka nen maria.mp3 in Resources */,
+				EADC6A8124190A6900AA90DE /* Kukuam Amin Dayaw.mp3 in Resources */,
+				EADC6A642418F85D00AA90DE /* Walang hiyang pare ko.mp3 in Resources */,
+				EADC6A71241906B400AA90DE /* Agbabaketak.mp3 in Resources */,
+				EAC9C1CA24188C5A00C4A156 /* A.m4a in Resources */,
+				EACBB9A12411E74800983F9F /* AddSongsTableViewCell.xib in Resources */,
+				EADC6A74241906B400AA90DE /* Agsubli Kadtoy Dennak.mp3 in Resources */,
+				EADC6A77241906B400AA90DE /* Palubosan nak kadin.mp3 in Resources */,
+				EA1925B724125B6500597484 /* FavoritesTableViewCell.xib in Resources */,
+				EA5AED7A240B94E5005027C4 /* SlideMenuTableViewCell.xib in Resources */,
+				EA197A31241A3CF1003E80BA /* Pangasinan Hymn.mp3 in Resources */,
+				EADC6A8324191EEB00AA90DE /* Matalag ya agew.mp3 in Resources */,
+				EAC9C1C824188C5A00C4A156 /* Cm.m4a in Resources */,
+				EAC9C1D124188C5A00C4A156 /* C.m4a in Resources */,
+				EA197A30241A3CF1003E80BA /* Oalay manoc con Tara.mp3 in Resources */,
+				EA197A33241A3CF1003E80BA /* Inar-aro taka.mp3 in Resources */,
+				EADC6A652418F85D00AA90DE /* Kung wala ka.mp3 in Resources */,
+				EA46DEE4241B8341001A5E77 /* ChordschartCollectionViewCell.xib in Resources */,
+				EADC6A602418F85D00AA90DE /* Kasalanan.mp3 in Resources */,
+				EADC6A5E2418F85D00AA90DE /* Buloy.mp3 in Resources */,
+				EA115E14241A93E5006ACDD7 /* Ponsiyano.mp3 in Resources */,
+				EADC6A672418F87400AA90DE /* Para sayo.mp3 in Resources */,
+				EADC6A7C24190A4400AA90DE /* Inggon dumaralos.mp3 in Resources */,
+				EAE93E1D2419B5CF00DD55E0 /* winGif.gif in Resources */,
+				EADC6A622418F85D00AA90DE /* Halaga.mp3 in Resources */,
+				EADC6A852419244000AA90DE /* guessAni.gif in Resources */,
+				EA19237F2407D299005F3BB3 /* LaunchScreen.storyboard in Resources */,
+				EAC9C1D224188C5A00C4A156 /* Bm.m4a in Resources */,
+				EADC6A76241906B400AA90DE /* Biag Ti Tao.mp3 in Resources */,
+				EADC6A73241906B400AA90DE /* Simple a kanta.mp3 in Resources */,
+				EAC9C1CF24188C5A00C4A156 /* Dm.m4a in Resources */,
+				EADC6A5D2418F85D00AA90DE /* Harana.mp3 in Resources */,
+				EAC9C1CB24188C5A00C4A156 /* E.m4a in Resources */,
+				EA19237C2407D299005F3BB3 /* Assets.xcassets in Resources */,
+				EAC9C1CD24188C5A00C4A156 /* Em.m4a in Resources */,
+				EA19237A2407D296005F3BB3 /* Main.storyboard in Resources */,
+				EA2EBBFA2421F38A00A8D420 /* AddSongsAybanTableViewCell.xib in Resources */,
+				EA29B50A2411421800C64C8C /* SelectedNativeSongCategoryTableViewCell.xib in Resources */,
+				EADC6A5F2418F85D00AA90DE /* Aaminin.mp3 in Resources */,
+				EACBF697241098D1001DEE13 /* PlaylistTableViewCell.xib in Resources */,
+				EADC6A75241906B400AA90DE /* Agpakada akon ayat ko.mp3 in Resources */,
+				EAC9C1CC24188C5A00C4A156 /* G.m4a in Resources */,
+				EAC9C1C924188C5A00C4A156 /* D.m4a in Resources */,
+				EAC9C1D024188C5A00C4A156 /* B.m4a in Resources */,
+				EA197A32241A3CF1003E80BA /* Pangasinan.mp3 in Resources */,
+				EADC6A7D24190A4400AA90DE /* Malabir Ka.mp3 in Resources */,
+				EADC6A8724193A9C00AA90DE /* Malinak lay labi.mp3 in Resources */,
+				EADC6A632418F85D00AA90DE /* 214.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81934C1B983EEA0AD6E8B2C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Guitorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD6C81FB31820D860CE56871 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Guitorial/Pods-Guitorial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13Checkbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Guitorial/Pods-Guitorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA19236D2407D296005F3BB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1BC0122414DE2700082C5B /* AboutusViewController.swift in Sources */,
+				EACBB9A02411E74700983F9F /* AddSongsTableViewCell.swift in Sources */,
+				EA1925B624125B6500597484 /* FavoritesTableViewCell.swift in Sources */,
+				EA1D89A2241FB32200B5AF2B /* PlaylistmusicsViewController.swift in Sources */,
+				EA6BD812241F2883000385FF /* ChordsCollectionViewCell.swift in Sources */,
+				EA0808EF241D22A0000FE6E0 /* Playlist.swift in Sources */,
+				EA5AED79240B94E5005027C4 /* SlideMenuTableViewCell.swift in Sources */,
+				EA29B5092411421800C64C8C /* SelectedNativeSongCategoryTableViewCell.swift in Sources */,
+				EAFD8AF3241852E400BD897D /* FavoriteNativeSong.swift in Sources */,
+				EA2EF7772413C4CC00A60400 /* HowtoplayViewController.swift in Sources */,
+				EA1C8DEE241126C90000A3AD /* NativeSongsCategoryViewController.swift in Sources */,
+				EAD7EA0D2413829F00070B37 /* QuestionsViewController.swift in Sources */,
+				EACBF696241098D1001DEE13 /* PlaylistTableViewCell.swift in Sources */,
+				EA16F7762412098E00748A70 /* LyricsnChordsViewController.swift in Sources */,
+				EA5BBDAB2417D765005F5FDB /* AllSongsBank.swift in Sources */,
+				EAD7EA0F241382C400070B37 /* ScoreBoardViewController.swift in Sources */,
+				EA1925B324125B1500597484 /* FavoritesViewController.swift in Sources */,
+				EACBB9A32411E85A00983F9F /* AddPlaylistViewController.swift in Sources */,
+				EA1D89A5241FB34900B5AF2B /* PlaylistmusicsTableViewCell.swift in Sources */,
+				EACBB9A72411E8DE00983F9F /* AddSongsViewController.swift in Sources */,
+				EAC5A6982417897A005C1334 /* ChordsChartViewController.swift in Sources */,
+				EA2EBBF2242195B100A8D420 /* Blue.swift in Sources */,
+				EA5A2A802423B14D0014AF85 /* AddPlSong.swift in Sources */,
+				EAD7EA0B2413826200070B37 /* ChartQuizViewController.swift in Sources */,
+				EA2EBBF92421F38A00A8D420 /* AddSongsAybanTableViewCell.swift in Sources */,
+				EA1C8DF0241126FB0000A3AD /* SelectedNativeSongCategoryViewController.swift in Sources */,
+				EA2EBBF62421F2E400A8D420 /* AddSongsAybanViewController.swift in Sources */,
+				EAC9C1D624188CF200C4A156 /* QuizGameBank.swift in Sources */,
+				EA1923752407D296005F3BB3 /* AppDelegate.swift in Sources */,
+				EA6BD80F241F2776000385FF /* ChordsViewController.swift in Sources */,
+				EAC9C1D424188CE700C4A156 /* QuizGame.swift in Sources */,
+				EA1923892407D2F5005F3BB3 /* SWRevealViewController.m in Sources */,
+				EA19097D24169B07000216B6 /* NativeSongs.swift in Sources */,
+				EA2EBBF42421DB7900A8D420 /* HelpViewController.swift in Sources */,
+				EA6BD815241F70CC000385FF /* AddMusicEmptyViewController.swift in Sources */,
+				EA46DEE3241B8341001A5E77 /* ChordschartCollectionViewCell.swift in Sources */,
+				EA5AED74240B9095005027C4 /* SlideMenuViewController.swift in Sources */,
+				EA0808F1241D25AD000FE6E0 /* PlaylistSongs.swift in Sources */,
+				EACBB9A52411E8B600983F9F /* ListPlayListViewController copy.swift in Sources */,
+				EA1C4ACE240EA6E2001B073E /* View.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA1923782407D296005F3BB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1923792407D296005F3BB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA19237D2407D299005F3BB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA19237E2407D299005F3BB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA1923812407D299005F3BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA1923822407D299005F3BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA1923842407D299005F3BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F80183EFD65E958A86F0B94 /* Pods-Guitorial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GBAYS748UK;
+				INFOPLIST_FILE = Guitorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Guitorial.Guitorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Guitorial/Guitorial-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EA1923852407D299005F3BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 184003BCD352D4EED4C70CE5 /* Pods-Guitorial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GBAYS748UK;
+				INFOPLIST_FILE = Guitorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Guitorial.Guitorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Guitorial/Guitorial-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA19236C2407D296005F3BB3 /* Build configuration list for PBXProject "Guitorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1923812407D299005F3BB3 /* Debug */,
+				EA1923822407D299005F3BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1923832407D299005F3BB3 /* Build configuration list for PBXNativeTarget "Guitorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1923842407D299005F3BB3 /* Debug */,
+				EA1923852407D299005F3BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA1923692407D296005F3BB3 /* Project object */;
+}
